@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // 2. Mostrar éxito y redirigir
             showFormMessage(form, 'success', '✅ ¡Registrado! Redirigiendo...');
-            setTimeout(() => { window.location.href = 'gracias.html'; }, 1500);
+            setTimeout(() => { window.location.href = 'materiales.html'; }, 1500);
         });
     });
 

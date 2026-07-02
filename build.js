@@ -1,4 +1,4 @@
-// Script de build: inyecta variables de .env en script.js → dist/script.js
+﻿// Script de build: inyecta variables de .env en script.js → dist/script.js
 const fs = require('fs');
 const path = require('path');
 
@@ -33,7 +33,7 @@ fs.writeFileSync(path.join(distDir, 'script.js'), out);
 
 // Copiar el resto de archivos estáticos
 const staticFiles = [
-    'index.html', 'styles.css', 'gracias.html',
+    'index.html', 'styles.css', 'materiales.html',
     'prompts-claude.html', 'cheatsheet.html',
     'guia-inicio.html', 'email-descarga.html'
 ];
